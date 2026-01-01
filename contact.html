@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuron</title>
+    
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="flex-row">
+        <img class="logo" src="media/logo-black.svg" alt="Neuron Logo">
+        <nav>
+            <ul class="flex-row">
+                <li><a class="link" href="index.html">Home</a></li>
+                <li><a class="link" href="services.html">Service</a></li>
+                <li><a class="link" href="about-us.html">About Us</a></li>
+                <li><a class="link" href="news.html">News</a></li>
+                <li><a class="link" href="#prices">Price</a></li>
+                <li><a class="link" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+            <!-- BANNER -->
+
+        <section class="banner-page">
+            <div class="banner-page__background banner--contact">
+                <div class="banner-page__block container flex-column">
+                    <h1 class="text--lg">Contact</h1>
+                </div>
+            </div>
+        </section>
+
+            <!-- VALUES -->
+
+        <section class="values values--gray section">
+            <div class="values__block container flex-row">
+                <div class="values__card flex-column">
+                    <h4 class="text--sm"><i class="ri-phone-line"></i>Call us.</h4>
+                    <a href="tel:+57 00 846 679 225" class="text--body">+57 00 846 679 225</a>
+                </div>
+
+                <div class="values__card flex-column">
+                    <h4 class="text--sm"><i class="ri-map-pin-3-line"></i>Visit us.</h4>
+                    <p class="text--body">C/ Fake Street, 5, 2B</p>
+                </div>
+
+                <div class="values__card flex-column">
+                    <h4 class="text--sm"><i class="ri-mail-line"></i>Write us.</h4>
+                    <a href="mailto:info@neuron.com" class="text--body">info@neuron.com</a>
+                </div>
+
+                <div class="values__card flex-column">
+                    <h4 class="text--sm"><i class="ri-message-2-line"></i>Chat with us.</h4>
+                    <p class="text--body">Click here to open the chat</p>
+                </div>
+
+            </div>
+        </section>
+
+            <!-- CONTACT -->
+
+        <section class="contact section">
+            <div class="contact__block container flex-row">
+
+                <div class="contact__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12316.768248517159!2d-0.3831640715151473!3d39.48757754566283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f49cc253387%3A0xa7be35bdeeb341d2!2sCEI%20Centro%20de%20Estudios%20Innovaci%C3%B3n.%20Cursos%20y%20masters%20de%20dise%C3%B1o%2C%20interiores%2C%20web%2C%20videojuegos%2C%20cloud%2C%20data%20y%20marketing%20digital!5e0!3m2!1ses!2ses!4v1762889007348!5m2!1ses!2ses" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="contact__form flex-column">
+                    <h2 class="text--lg"> Contact with us</h2>
+                    <p class="body"> You can also check other ways to contact us on the contact page.</p>
+                    <form action="#" method="GET">
+                        <div class="flex-row">
+                            <label for="name"></label>
+                            <input id="name" name="name" type="text" placeholder="Name">
+
+                            <label for="surname"></label>
+                            <input id="surname" name="surname" type="text" placeholder="Surname">
+                        </div>
+                        <label for="email"></label>
+                        <input id="email" name="email" type="email" placeholder="E-mail">
+
+                        <label for="news"></label>
+                        <select name="news" id="news">
+                            <option value="uxui">UX/UI</option>
+                            <option value="webdesign">Web Design</option>
+                        </select>
+
+                        <div class="flex-row acceptance">
+                            <label for="privacy"></label>
+                            <input type="checkbox">
+                            <span>
+                                I have read and accept the <b>privacy policy.</b>
+                            </span>
+                        </div>
+
+                        <input class="submit" type="submit" value="Send">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+            <!-- PRICES -->
+
+        <section id="prices" class="prices section">
+            <div class="prices__block container">
+                <div class="prices__card gray flex-column">
+                    <div class="prices__info flex-column">
+                        <h3 class="text--md">Basic Plan</h3>
+                        <span class="text--xl">99€</span>
+                        <a class="btn btn--black" href="#">Try it for free <i class="ri-arrow-right-up-line"></i></a>
+                    </div>
+
+                    <ul class="prices__list body">
+                        <li> <i class="ri-checkbox-circle-line"></i> UX/UI </li>
+                        <li> <i class="ri-checkbox-circle-line"></i> WordPress </li>
+                        <li> <i class="ri-checkbox-circle-line"></i> Customized panel </li>
+                        <li> <i class="ri-close-circle-line red"></i> Neuhost access </li>
+                        <li> <i class="ri-close-circle-line red"></i> Neuron Studio </li>
+                        <li> <i class="ri-close-circle-line red"></i> Web development </li>
+                        <li> <i class="ri-close-circle-line red"></i> App development </li>
+                        <li> <i class="ri-close-circle-line red"></i> SEO/SEM </li>
+                    </ul>
+                </div>
+
+                <div class="prices__card dark flex-column">
+                    <div class="prices__info flex-column">
+                        <h3 class="text--md">Pro Plan</h3>
+                        <span class="text--xl">129€</span>
+                        <a class="btn btn--light" href="#">Try it for free <i class="ri-arrow-right-up-line"></i></a>
+                    </div>
+                        
+                    <ul class="prices__list body">
+                        <li> <i class="ri-checkbox-circle-line"></i> UX/UI </li>
+                        <li> <i class="ri-checkbox-circle-line"></i> WordPress </li>
+                        <li> <i class="ri-checkbox-circle-line"></i> Customized panel </li>
+                        <li> <i class="ri-checkbox-circle-line"></i> Neuhost access </li>
+                        <li> <i class="ri-checkbox-circle-line"></i> Neuron Studio </li>
+                        <li> <i class="ri-close-circle-line red"></i> Web development </li>
+                        <li> <i class="ri-close-circle-line red"></i> App development </li>
+                        <li> <i class="ri-close-circle-line red"></i> SEO/SEM </li>
+                    </ul>
+                </div>
+
+                <div class="prices__card gray flex-column">
+                    <div class="prices__info flex-column">
+                        <h3 class="text--md">Xtreme Plan</h3>
+                        <span class="text--xl">199€</span>
+                        <a class="btn btn--black" href="#">Try it for free <i class="ri-arrow-right-up-line"></i></a>
+                    </div>
+
+                    <ul class="prices__list body">
+                        <li> <i class="ri-checkbox-circle-line"></i> UX/UI </li>
+                        <li> <i class="ri-checkbox-circle-line"></i> WordPress </li>
+                        <li> <i class="ri-checkbox-circle-line"></i> Customized panel </li>
+                        <li> <i class="ri-checkbox-circle-line"></i> Neuhost access </li>
+                        <li> <i class="ri-checkbox-circle-line"></i> Neuron Studio </li>
+                        <li> <i class="ri-checkbox-circle-line"></i> Web development </li>
+                        <li> <i class="ri-checkbox-circle-line"></i> App development </li>
+                        <li> <i class="ri-checkbox-circle-line"></i> SEO/SEM </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+</main>
+
+    <footer>
+        <div class="footer__wrap flex-column">
+            <div class="footer__top flex-row">
+
+                <img class="logo-light" src="media/logo-light.svg" alt="Neuron Logo Light">
+
+                <div class="footer__rrss flex-row">
+                    <a href="#"> <i class="ri-instagram-line"></i> </a>
+                    <a href=""> <i class="ri-twitter-x-line"></i> </a>
+                    <a href=""> <i class="ri-pinterest-line"></i> </a>
+                    <a href=""> <i class="ri-linkedin-box-line"></i> </a>
+                </div>
+            </div>
+
+            <div class="footer__bot flex-row">
+                <a class="link" href="">Legal Notice</a>
+                <a class="link" href="">Privacy Policy</a>
+                <a class="link" href="">Cookies Policy</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
