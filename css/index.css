@@ -27,26 +27,31 @@ a {
     --f-heading-sm: 500 1.1875em "Instrument Sans", sans-serif;
     --f-body: normal .9375em "Instrument Sans", sans-serif;
     --f-link: 500 .9375em "Instrument Sans", sans-serif;
+}
 
+:root {
     /* Colors */
     --c-text: #1F1F1F;
     --c-light: #F3F3F3;
     --c-primary: #4391F0;
+}
 
+:root {
     /* Spacing */
     --s-xl: 4rem;
     --s-lg: 3rem;
     --s-md: 2rem;
     --s-sm: 1rem;
     --s-xs: .5rem;
+}
 
+:root{
     /* Sizes */
     --mw-lg: 60.25rem;
 
     /* Radius */
     --r-xl: 6rem;
     --r-sm: .3125rem;
-
 }
 
 /* ELEMENTS */
