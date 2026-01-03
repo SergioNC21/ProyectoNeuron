@@ -149,16 +149,6 @@ header {
         max-width: 6.25rem;
 
     }
-
-    & nav {
-
-        & ul {
-            
-            & li {
-
-            }
-        }
-    }
 }
 
 /* /HEADER */
@@ -183,13 +173,6 @@ header {
 
         & .banner__block {
             width: 100%;
-            & h1 {
-
-            }
-
-            & h4 {
-
-            }
         }
     }
 }
@@ -212,13 +195,6 @@ header {
         & .banner-page__block {
             width: 100%;
             align-items: center;
-            & h1 {
-
-            }
-
-            & h4 {
-
-            }
         }
     }
 }
